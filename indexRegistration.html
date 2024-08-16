@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRegistration.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Quiz application</title>
+</head>
+<body class="bodyClass">
+    <div class="RegisterForm">
+      <form action="quizCreate.html" method="get" id="registerForm">
+        <div id ="userName" class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">User Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="username" required>
+          </div>
+      </div>
+      <div id ="Email"class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="email" required>
+          </div>
+      </div>
+      <div id ="password"class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="userPassword" required>
+          </div>
+      </div>
+      <div id="submit" class="col-auto">
+          <button type="button" onclick="register()" class="btn btn-primary mb-3" id="registerBtn">Register</button>
+        </div>
+      </form>
+      <form action="indexLogin.html" method="get" id="loginPage">
+        <p id="pID">Already have an account?
+        </p>
+        <div id="submit1" class="col-auto">
+          <button type="Login" class="btn btn-primary mb-3">Login</button>
+        </div>
+      </form>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

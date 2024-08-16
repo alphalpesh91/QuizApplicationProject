@@ -1,0 +1,39 @@
+.bodyClass
+{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    height: 100vh;
+}
+.RegisterForm
+{
+    border: 2px solid black;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin-left: 350px;
+    width: 50%;
+    margin-top: 200px;
+}
+#userName
+{
+    padding-top: 12px;
+    padding-right: 5px;
+}
+#Email
+{
+    padding-right: 5px;
+}
+#password
+{
+    padding-right: 5px;
+}
+#submit
+{
+    text-align: center;
+}
+#submit1
+{
+    padding-left: 5px;
+}
+#pID
+{
+    padding-left: 5px;
+}

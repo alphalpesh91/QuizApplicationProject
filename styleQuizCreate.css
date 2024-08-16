@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+input, button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.question {
+
+    margin-top: 20px;
+}
+
+#link {
+    margin-top: 20px;
+}
+#LoginHeading
+{
+    text-align: center;
+}

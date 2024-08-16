@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="styleQuizCreate.css">
+</head>
+<body style="background-color: aquamarine;">
+    <div class="container">
+        <form>
+            <h1>Quiz Admin Page</h1>
+            <label for="question">Question:</label>
+            <input type="text" id="question" placeholder="Enter question">
+            <label for="options">Options (comma-separated):</label>
+            <input type="text" id="options" placeholder="Option1, Option2, Option3, Option4">
+            <label for="correct">Correct Option (index):</label>
+            <input type="number" id="correct" min="0">
+            <button type="button" onclick="addQuestion()" class="btn btn-primary mb-3" id="addquestion">Add Question</button>
+            <div id="link"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
